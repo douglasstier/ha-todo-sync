@@ -1,0 +1,12 @@
+{
+  "domain": "todo_sync",
+  "name": "Todo Sync",
+  "codeowners": ["@douglasstier"],
+  "config_flow": true,
+  "dependencies": ["todo"],
+  "documentation": "https://github.com/douglasstier/ha-todo-sync",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "requirements": [],
+  "version": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Todo Sync",
+        "description": "Keeps the open items of two to-do lists in sync in both directions. Checked-off history is not copied, and nothing is ever deleted: removing an item on one side checks it off on the other.",
+        "data": {
+          "list_a": "First list",
+          "list_b": "Second list"
+        }
+      }
+    },
+    "error": {
+      "same_list": "Pick two different lists."
+    },
+    "abort": {
+      "already_configured": "These two lists are already synced."
+    }
+  }
+}
